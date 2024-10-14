@@ -119,6 +119,7 @@ h5 {
 @media (max-width: 500px) {
   .hero-img {
     padding: 0;
+    height: 300px;
   }
   h2 {
     white-space: wrap;
