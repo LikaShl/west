@@ -136,6 +136,9 @@ h5 {
     align-items: center;
     justify-content: center;
   }
+  .contacts {
+    display: block;
+  }
 }
 @media (max-width: 500px) {
   .hero-img {
