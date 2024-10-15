@@ -32,7 +32,7 @@ h1 {
   align-items: end;
 }
 
-.presentation {
+.about-us-block {
   padding: 100px 50px;
   display: flex;
   font-size: 24px;
@@ -85,6 +85,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin: 40px;
+  font-size: 24px;
 }
 .menu-block {
   display: flex;
@@ -101,12 +102,32 @@ footer {
   border-top: solid 1px #cccccc;
   margin-top: 40px;
   padding: 20px 40px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   gap: 100px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto;
+}
+footer a {
+  color: #cccccc;
+  text-decoration: none;
+}
+footer a:link {
+  color: #cccccc;
+}
+footer a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+footer a:visited {
+  color: #cccccc;
 }
 h5 {
-  font-size: larger;
+  font-size: 24px;
   padding-bottom: 5px;
 }
 @media (max-width: 800px) {
