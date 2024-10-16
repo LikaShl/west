@@ -4,29 +4,29 @@
   box-sizing: border-box;
   list-style: none;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   min-width: 360px;
   background-color: black;
   color: #cccccc;
 }
-header  {
-    margin: 20px auto;
+header {
+  margin: 20px auto;
 }
-nav  ul {
-    display: flex;
+nav ul {
+  display: flex;
 }
 nav li {
-    padding: 5px 30px;
+  padding: 5px 30px;
 }
 .nav-links {
   color: #cccccc;
   font-size: 18px;
   text-decoration: none;
 }
-.nav-links:hover  {
-    font-weight: 600;
+.nav-links:hover {
+  font-weight: 600;
+  text-decoration: underline;
 }
 h1 {
   color: transparent;
@@ -148,7 +148,7 @@ h5 {
   padding-bottom: 5px;
 }
 i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .technics-links {
   display: flex;
