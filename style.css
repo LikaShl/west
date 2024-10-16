@@ -11,6 +11,23 @@ body {
   background-color: black;
   color: #cccccc;
 }
+header  {
+    margin: 20px auto;
+}
+nav  ul {
+    display: flex;
+}
+nav li {
+    padding: 5px 30px;
+}
+.nav-links {
+  color: #cccccc;
+  font-size: 18px;
+  text-decoration: none;
+}
+.nav-links:hover  {
+    font-weight: 600;
+}
 h1 {
   color: transparent;
 }
@@ -120,8 +137,8 @@ footer a:link {
   color: #cccccc;
 }
 footer a:hover {
-    text-decoration: underline;
-    font-weight: 700;
+  text-decoration: underline;
+  font-weight: 700;
 }
 footer a:visited {
   color: #cccccc;
@@ -129,6 +146,14 @@ footer a:visited {
 h5 {
   font-size: 24px;
   padding-bottom: 5px;
+}
+i {
+    margin-right: 5px;
+}
+.technics-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 @media (max-width: 800px) {
   .fotogallery {
